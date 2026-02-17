@@ -1,0 +1,541 @@
+<!doctype html>
+<html lang="en">
+
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- favicon -->
+    <link rel="shortcut icon" type="https://nifglobal.org/wp-content/themes/nifglobal/image/x-icon" href="https://nifglobal.org/wp-content/themes/nifglobal/assets/images/fav.png">
+  <title>Welcome to Nattraja Incubation Forum</title>
+
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="https://nifglobal.org/wp-content/themes/nifglobal/assets/css/plugins/fontawesome-5.css">
+    <!-- fontawesome css -->
+    <link rel="stylesheet" href="https://nifglobal.org/wp-content/themes/nifglobal/assets/css/plugins/swiper.css">
+    <link rel="stylesheet" href="https://nifglobal.org/wp-content/themes/nifglobal/assets/css/plugins/aos.css">
+    <link rel="stylesheet" href="https://nifglobal.org/wp-content/themes/nifglobal/assets/css/plugins/metismenu.css">
+    <link rel="stylesheet" href="https://nifglobal.org/wp-content/themes/nifglobal/assets/css/plugins/hover-revel.css">
+    <link rel="stylesheet" href="https://nifglobal.org/wp-content/themes/nifglobal/assets/css/plugins/timepickers.min.css">
+    <!-- bootstrap css -->
+    <link rel="stylesheet" href="https://nifglobal.org/wp-content/themes/nifglobal/assets/css/vendor/bootstrap.min.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="https://nifglobal.org/wp-content/themes/nifglobal/assets/css/style.css">
+</head>
+
+<body class="index-eight">
+    <!-- header style two -->
+    <!-- header seven area start -->
+    <header class="header-seven header--sticky">
+        <div class="container container-header-7">
+            <div class="row">
+                <div class="col-12">
+                
+                    <div class="header-main">
+                        <div class="logo-area">
+                            <!--<a href="https://nifglobal.org" class="logo">-->
+                            <!--       <img src="https://nifglobal.org/wp-content/themes/nifglobal/assets/images/logoright.png" alt="logo-area">-->
+                            <!--</a>-->
+                            <a href="http://nifglobal.org/" class="logo">
+                                   <img src="https://nifglobal.org/wp-content/themes/nifglobal/assets/images/logoright.png" alt="logo-area">
+                            </a>
+                            
+                        </div>
+                        <div class="menu-area-start">
+                            <!-- header style two -->
+                            <!-- nav area start -->
+                            <div class="main-nav-desk nav-area">
+                                <nav>
+                                    <ul>
+                                         <li class="menu-item">
+                                            <a class="nav-item" href="http://nifglobal.org/">Home</a>
+                                        </li>
+                                        <li class="has-droupdown pages">
+                                            <a class="nav-link" href="http://nifglobal.org/about/">About</a>
+                                            <ul class="submenu inner-page">
+                                              
+                                                 <li><a href="https://nifglobal.org/about-nif/">About NIF</a></li>
+                                            
+                                          
+                                                <li><a href="https://nifglobal.org/about-director/">About Director</a></li>
+												   <li><a href="https://nifglobal.org/about-ceo/">About CEO</a></li>
+												     
+												<li>
+                                            <a class="nav-item" href="https://nifglobal.org/innovation-voucher-programme/">Innovation Voucher Programme</a>
+                                        </li>
+										 	 
+                                            
+                                            
+                                            </ul>
+                                        </li>
+                                         <li class="menu-item">
+                                            <a class="nav-item" href="http://nifglobal.org/events/">Events</a>
+                                        </li>
+                                         <li class="menu-item">
+                                            <a class="nav-item" href="http://nifglobal.org/our-facilities/">Our Facilities</a>
+                                        </li>
+                                        <li class="menu-item">
+                                            <a class="nav-item" href="https://nifglobal.org/our-incubatees/">Our-Incubatees</a>
+                                        </li>
+                                       <li class="menu-item">
+                                            <a class="nav-item" href="http://nifglobal.org/wp-content/uploads/2023/11/NIF-Nattraja-Launchpad-for-Bioconvergence.pdf">Policies</a>
+                                        </li>
+                                      
+										  <li class="menu-item">
+                                            <a class="nav-item" href="http://nifglobal.org/contact">Contact</a>
+                                        </li>
+                                    </ul>
+                                </nav>
+                             
+                            </div>
+                            <!-- nav-area end -->
+                            <!-- header style two End -->
+                               
+                        </div>
+                        
+                        <div class="right-area">
+				   <div class="rightlogo">
+                                       <img src="https://nifglobal.org/wp-content/themes/nifglobal/assets/images/logo.png" alt="logo-area">
+									   </div>
+                            <div class="menu-area ml--30 ml_md--15 ml_sm--10" id="menu-btn">
+                                <svg width="29" height="28" viewBox="0 0 29 28" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                    <path d="M0 0H5V6H0V0Z" fill="#D9D9D9" />
+                                    <path d="M0 11H5V17H0V11Z" fill="#D9D9D9" />
+                                    <path d="M0 22H5V28H0V22Z" fill="#D9D9D9" />
+                                    <path d="M12 0H17V6H12V0Z" fill="#D9D9D9" />
+                                    <path d="M24 0H29V6H24V0Z" fill="#D9D9D9" />
+                                    <path d="M12 11H17V17H12V11Z" fill="#D9D9D9" />
+                                    <path d="M12 22H17V28H12V22Z" fill="#D9D9D9" />
+                                    <path d="M24 11H29V17H24V11Z" fill="#D9D9D9" />
+                                    <path d="M24 22H29V28H24V22Z" fill="#D9D9D9" />
+                                </svg>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+        
+    </header>
+      <!-- side bar start -->
+    <div id="side-bar" class="side-bar header-two">
+        <button class="close-icon-menu"><i class="far fa-times"></i></button>
+        <!-- inner menu area desktop start -->
+        <div class="inner-main-wrapper-desk">
+            <div class="thumbnail">
+                <img src="https://nifglobal.org/wp-content/themes/nifglobal/assets/images/banner/04.jpg" alt="jkkn">
+            </div>
+            <div class="inner-content">
+                <h4 class="title">Welcome to Nattraja Incubation Forum</h4>
+                <p class="disc">
+                    We successfully cope with tasks of varying complexity, provide long-term guarantees and regularly master new technologies.
+                </p>
+                <div class="footer">
+                    <h4 class="title">Got a Incubatee Application</h4>
+                    <a href="https://docs.google.com/forms/d/e/1FAIpQLSf3g7Z8FUm_irN58qYU4qyfp_RgmFWjIPT2OB0F9REDyDeGog/viewform?vc=0&c=0&w=1&flr=0" class="rts-btn btn-seconday">Application Form</a>
+                </div>
+            </div>
+        </div>
+        <!-- mobile menu area start -->
+        <!-- header style two End -->
+                                <!-- mobile menu area start -->
+        <div class="mobile-menu d-block d-xl-none">
+            <nav class="nav-main mainmenu-nav mt--30">
+                <ul class="mainmenu" id="mobile-menu-active">
+                    <li>
+                        <a href="http://nifglobal.org/" class="main">Home</a>
+                    </li>
+                    <li>
+                        <a href="https://nifglobal.org/about/" class="main">About</a>
+                    </li>
+                    <li>
+                        <a href="https://nifglobal.org/events" class="main">Events</a>
+                    </li>
+                    <li>
+                        <a href="https://nifglobal.org/our-incubatees" class="main">Our incubatees</a>
+                    </li>
+                    <li>
+                        <a href="http://nifglobal.org/wp-content/uploads/2023/11/NIF-Nattraja-Launchpad-for-Bioconvergence.pdf" class="main">Policies</a>
+                    </li>
+                    <li>
+                        <a href="https://nifglobal.org/contact" class="main">Contact Us</a>
+                    </li>
+                </ul>
+            </nav>
+
+            <div class="social-wrapper-one">
+                <ul>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-facebook-f"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-twitter"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-youtube"></i>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <i class="fa-brands fa-linkedin-in"></i>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </div>        <!-- mobile menu area end -->
+    </div>
+    <!-- side bar end -->
+<div class="subpages">
+
+	<!-- Banner Wrap -->
+	<div class="sub_banner">
+  		<div class="subbanner_content text-center">
+    		<div class="container">
+      		<h1>Page not found!</h1>
+      		<div class="breadcrumbs">					
+					<div id="crumbs"><a href="https://nifglobal.org">Home</a> <span class="divider">/</span> <span class="current">Error 404</span></div>					
+				</div>   
+    		</div>
+  		</div>
+	</div><!-- End Banner Wrap -->
+	
+	<!-- 404 Page Content -->
+	<div class="page_content default__page error_page">
+		<div class="container">
+			<div class="content_info_center text-center">
+				<h1><span>404</span> Error</h1>
+ 				<h2>The requested page cannot be found</h2>
+ 				<p>We are sorry but the page you are looking for does not exist. You could return to the homepage.</p>
+ 				<a href="https://nifglobal.org" class="btn btn-danger custom-btn">Back to Home</a>
+ 			</div>
+		</div>
+	</div><!-- End 404 Page -->
+	
+</div>
+
+   <!-- footer area start -->
+                 <!-- header style two End -->
+                              
+    <!-- rts footer area start -->
+    <div class="rts-footer-two footer-8 rts-section-gap2Top">
+        <div class="container">
+            <div class="row g-0 main-ftop-wrapper mb--70">
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <!-- single fil footer eight -->
+                    <div class="single-fill-footer logo style="background-color: #ffff;>
+                        <a href="https://nifglobal.org" class="thumbnail-logo">
+                           <img src="https://nifglobal.org/wp-content/themes/nifglobal/assets/images/flogo.png" alt="logo-area">
+                        </a>
+                        <!-- single fil footer eight end -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <!-- single fil footer eight -->
+                    <div class="single-fill-footer info">
+                        <div class="icon">
+                            <i class="fa-sharp fa-solid fa-phone"></i>
+							
+                        </div>
+                        <div class="info">
+                            <span>Phone Number</span>
+                            <a href="#">+919688232957</a>
+                        </div>
+                        <!-- single fil footer eight end -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <!-- single fil footer eight -->
+                    <div class="single-fill-footer info">
+                        <div class="icon">
+                            <i class="fa-light fa-envelope"></i>
+                        </div>
+                        <div class="info">
+                            <span>Email Us Here</span>
+                            <a href="#">nif@jkkn.ac.in</a>
+                        </div>
+                        <!-- single fil footer eight end -->
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6 col-sm-6 col-12">
+                    <!-- single fil footer eight -->
+                    <div class="single-fill-footer info">
+                        <div class="icon">
+						<i class="fa-thin fa-location-dot"></i>
+                     
+                        </div>
+                        <div class="info">
+                            <span>Office Address</span>
+                            <a href="#">Natarajapuram, NH-544 (Salem to Coimbatore), Kumarapalayam – 638183, Namakkal (DT)</a>
+                        </div>
+                        <!-- single fil footer eight end -->
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- ,main footer area start -->
+                    <div class="main-footer-wrapper-two">
+                        <div class="single-footer-wized-two logo-area" data-sal="slide-up" data-sal-delay="150" data-sal-duration="800">
+                            <h6 class="title">About Company</h6>
+                            <p class="disc-f">
+                            Nattraja Incubation Forum (NIF) also called as NLB Nattraja Launchpad for Bioconvergence  an innovative beacon within the rich fabric of India's technological landscape, stands as the nation's first incubation center 
+                            </p>
+                            <div class="rts-social-wrapper-three">
+                                <ul>
+                                    <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                                    <li><a href="https://twitter.com/jkknif"><i class="fa-brands fa-twitter"></i></a></li>
+                                    <li><a href="#"><i class="fa-brands fa-youtube"></i></a></li>
+                                    <li><a href="https://www.instagram.com/nattrajaincubationforum/"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="single-footer-wized-two pages" data-sal="slide-up" data-sal-delay="250" data-sal-duration="800">
+                            <div class="footer-header-two pages">
+                                <h6 class="title">Useful Links</h6>
+                                <div class="pages">
+                                    <ul>
+                                        <li><a href="#"><i class="fa-solid fa-arrow-right"></i> About Us</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Our Team</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Incubation Support</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-arrow-right"></i> Our Facilities</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-arrow-right"></i> Our Partners</a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-footer-wized-two pages" data-sal="slide-up" data-sal-delay="250" data-sal-duration="800">
+                            <div class="footer-header-two pages">
+                                <h6 class="title">What We Do</h6>
+                                <div class="pages">
+                                    <ul>
+                                        <li><a href="#"><i class="fa-solid fa-arrow-right"></i> Events</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-arrow-right"></i> Our Incubatees</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Mentor Network</a></li>
+                                        <li><a href="#"><i class="fa-solid fa-arrow-right"></i>Funding Opportunities</a></li>
+                                   
+                                    </ul>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="single-footer-wized-two newsletter" data-sal="slide-up" data-sal-delay="550" data-sal-duration="800">
+                            <div class="footer-header-two newsletter">
+                             <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d500542.6680082358!2d77.730209!3d11.444545!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3ba9681da59f5845%3A0xa9782648005bb6f3!2sJKKN%20Educational%20Institutions!5e0!3m2!1sen!2sin!4v1699584163405!5m2!1sen!2sin" width="300" height="350" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- ,main footer area end -->
+                </div>
+            </div>
+        </div>
+        <div class="menu-row-wrapper mt--80">
+            <div class="container">
+                <div class="row">
+                    <div class="col-12">
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+        <!-- copy right area start -->
+        <div class="copyright-area">
+            <div class="container">
+                <div class="row">
+                    <div class="col-lg-12">
+                        <div class="copyright-footer-two">
+                            <p class="disc">
+                                Copyright © 2025 Jkkn Nattraja Incubation. All Rights Reserved. Design - jicate Solutions
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- copyright area end -->
+    </div>
+    <!-- rts footer area end -->
+
+    <!-- header style two -->
+    <!-- progress area start -->
+    <div class="progress-wrap">
+        <svg class="progress-circle svg-content" width="100%" height="100%" viewBox="-1 -1 102 102">
+            <path d="M50,1 a49,49 0 0,1 0,98 a49,49 0 0,1 0,-98" style="transition: stroke-dashoffset 10ms linear 0s; stroke-dasharray: 307.919, 307.919; stroke-dashoffset: 307.919;">
+            </path>
+        </svg>
+    </div>
+    <!-- progress area end -->
+
+    <!-- cart area start -->
+    <div class="cart-bar">
+        <div class="cart-header">
+            <h3 class="cart-heading">MY CART (3 ITEMS)</h3>
+            <div class="close-cart"><i class="fal fa-times"></i></div>
+        </div>
+        <div class="product-area">
+            <div class="product-item">
+                <div class="product-detail">
+                    <div class="product-thumb"><img src="https://nifglobal.org/wp-content/themes/nifglobal/assets/images/slider/image1.jpg" alt="product-thumb"></div>
+                    <div class="item-wrapper">
+                        <span class="product-name">Construct Map</span>
+                        <div class="item-wrapper">
+                            <span class="product-variation"><span class="color">Green /</span>
+                            <span class="size">XL</span></span>
+                        </div>
+                        <div class="item-wrapper">
+                            <span class="product-qnty">3 ×</span>
+                            <span class="product-price">$198.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-edit">
+                    <div class="quantity-edit">
+                        <button class="button"><i class="fal fa-minus minus"></i></button>
+                        <input type="text" class="input" value="3">
+                        <button class="button plus">+<i class="fal fa-plus plus"></i></button>
+                    </div>
+                    <div class="item-wrapper d-flex mr--5 align-items-center">
+                        <a href="#" class="product-edit"><i class="fal fa-edit"></i></a>
+                        <a href="#" class="delete-cart"><i class="fal fa-times"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-item">
+                <div class="product-detail">
+                    <div class="product-thumb"><img src="assets/images/slider/image2.jpg" alt="product-thumb"></div>
+                    <div class="item-wrapper">
+                        <span class="product-name"> Bridge product</span>
+                        <div class="item-wrapper">
+                            <span class="product-variation"><span class="color">Green /</span>
+                            <span class="size">XL</span></span>
+                        </div>
+                        <div class="item-wrapper">
+                            <span class="product-qnty">2 ×</span>
+                            <span class="product-price">$88.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-edit">
+                    <div class="quantity-edit">
+                        <button class="button"><i class="fal fa-minus minus"></i></button>
+                        <input type="text" class="input" value="2">
+                        <button class="button plus">+<i class="fal fa-plus plus"></i></button>
+                    </div>
+                    <div class="item-wrapper d-flex mr--5 align-items-center">
+                        <a href="#" class="product-edit"><i class="fal fa-edit"></i></a>
+                        <a href="#" class="delete-cart"><i class="fal fa-times"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="product-item last-child">
+                <div class="product-detail">
+                    <div class="product-thumb"><img src="assets/images/slider/image5.jpg" alt="product-thumb"></div>
+                    <div class="item-wrapper">
+                        <span class="product-name">Labour helmet</span>
+                        <div class="item-wrapper">
+                            <span class="product-variation"><span class="color">Green /</span>
+                            <span class="size">XL</span></span>
+                        </div>
+                        <div class="item-wrapper">
+                            <span class="product-qnty">1 ×</span>
+                            <span class="product-price">$289.00</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="cart-edit">
+                    <div class="quantity-edit">
+                        <button class="button"><i class="fal fa-minus minus"></i></button>
+                        <input type="text" class="input" value="2">
+                        <button class="button plus">+<i class="fal fa-plus plus"></i></button>
+                    </div>
+                    <div class="item-wrapper d-flex mr--5 align-items-center">
+                        <a href="#" class="product-edit"><i class="fal fa-edit"></i></a>
+                        <a href="#" class="delete-cart"><i class="fal fa-times"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="cart-bottom-area">
+            <span class="spend-shipping"><i class="fal fa-truck"></i> SPENT <span class="amount">$199.00</span> MORE
+            FOR FREE SHIPPING</span>
+            <span class="total-price">TOTAL: <span class="price">$556</span></span>
+            <a href="#" class="checkout-btn cart-btn">PROCEED TO CHECKOUT</a>
+            <a href="#" class="view-btn cart-btn">VIEW CART</a>
+        </div>
+    </div>
+    <!-- cart area edn -->
+
+    <div class="search-input-area">
+        <div class="container">
+            <div class="search-input-inner">
+                <div class="input-div">
+                    <input id="searchInput1" class="search-input" type="text" placeholder="Search by keyword or #">
+                    <button><i class="far fa-search"></i></button>
+                </div>
+            </div>
+        </div>
+        <div id="close" class="search-close-icon"><i class="far fa-times"></i></div>
+    </div>
+
+
+    <div id="anywhere-home" class=""></div>
+
+    <!-- pre loader start -->
+    <div id="elevate-load">
+        <div class="loader-wrapper">
+            <div class="lds-ellipsis">
+              <img src="https://nifglobal.org/wp-content/themes/nifglobal/assets/images/logoright.png" alt="logo-area">
+            </div>
+        </div>
+    </div>
+    <!-- pre loader end -->
+
+
+    <!-- jquery js -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/plugins/jquery.min.js"></script>
+    <!-- jquery ui -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/vendor/jqueryui.js"></script>
+    <!-- counter up -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/plugins/counter-up.js"></script>
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/plugins/swiper.js"></script>
+    <!-- twinmax -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/vendor/twinmax.js"></script>
+    <!-- split text js -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/vendor/split-text.js"></script>
+    <!-- text plugins -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/plugins/text-plugins.js"></script>
+    <!-- metismenu js -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/plugins/metismenu.js"></script>
+    <!-- waypoint js -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/vendor/waypoint.js"></script>
+    <!-- waw -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/vendor/waw.js"></script>
+    <!-- aos js -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/plugins/aos.js"></script>
+    <!-- jquery ui js -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/plugins/jquery-ui.js"></script>
+    <!-- timepickers -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/plugins/jquery-timepicker.js"></script>
+    <!-- sal animation -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/vendor/sal.min.js"></script>
+    <!-- bootstrap JS -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/plugins/bootstrap.min.js"></script>
+    <!-- easing JS -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/plugins/jquery-slideNav.js"></script>
+    <!-- easing JS -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/plugins/hover-revel.js"></script>
+    <!-- contact form js -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/plugins/contact-form.js"></script>
+    <!-- main js -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/main.js"></script>
+    <!-- swip image -->
+    <script src="https://nifglobal.org/wp-content/themes/nifglobal/assets/js/plugins/swip-img.js"></script>
+</body>
+</html>
