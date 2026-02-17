@@ -1,8 +1,8 @@
-export default function Navbar() {
+export default function Navbar({ activePage }: { activePage: string }) {
   return (
     <nav className="navbar navbar-expand-lg sticky-top" id="mainNav">
       <div className="container">
-        <a className="navbar-brand" href="#home">
+        <a className="navbar-brand" href="/">
           <img
             src="/images/flogo.png"
             alt="NIF - Nattraja Incubation Forum"
@@ -26,25 +26,25 @@ export default function Navbar() {
         >
           <ul className="navbar-nav">
             <li className="nav-item">
-              <a className="nav-link" href="#home">Home</a>
+              <a className={`nav-link${activePage === "home" ? " active" : ""}`} href="/">Home</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#nif-about">About</a>
+              <a className={`nav-link${activePage === "about" ? " active" : ""}`} href="/about">About</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#nif-programmes">Programmes</a>
+              <a className={`nav-link${activePage === "programmes" ? " active" : ""}`} href="/programmes">Programmes</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#nif-facilities">Our Facilities</a>
+              <a className={`nav-link${activePage === "facilities" ? " active" : ""}`} href="/facilities">Our Facilities</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#nif-incubatees">Our Incubatees</a>
+              <a className={`nav-link${activePage === "incubatees" ? " active" : ""}`} href="/incubatees">Our Incubatees</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#nif-events">Events</a>
+              <a className={`nav-link${activePage === "events" ? " active" : ""}`} href="/events">Events</a>
             </li>
             <li className="nav-item">
-              <a className="nav-link" href="#nif-contact">Contact</a>
+              <a className={`nav-link${activePage === "contact" ? " active" : ""}`} href="/contact">Contact</a>
             </li>
           </ul>
         </div>

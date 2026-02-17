@@ -15,7 +15,7 @@ export default function FacilitiesPage() {
   return (
     <>
       <TopBar />
-      <Navbar />
+      <Navbar activePage="facilities" />
 
       <div className="nif-2026">
         {/* HERO SECTION */}
