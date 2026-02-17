@@ -36,7 +36,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <head>
-        <meta name="theme-color" content="#FF6600" />
+        <meta name="theme-color" content="#0b6d41" />
         <link rel="icon" type="image/png" href="/images/flogo.png" />
         <link
           href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"

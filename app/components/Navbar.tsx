@@ -32,13 +32,13 @@ export default function Navbar({ activePage }: { activePage: string }) {
               <a className={`nav-link${activePage === "about" ? " active" : ""}`} href="/about">About</a>
             </li>
             <li className="nav-item">
-              <a className={`nav-link${activePage === "programmes" ? " active" : ""}`} href="/programmes">Programmes</a>
-            </li>
-            <li className="nav-item">
               <a className={`nav-link${activePage === "facilities" ? " active" : ""}`} href="/facilities">Our Facilities</a>
             </li>
             <li className="nav-item">
               <a className={`nav-link${activePage === "incubatees" ? " active" : ""}`} href="/incubatees">Our Incubatees</a>
+            </li>
+            <li className="nav-item">
+              <a className={`nav-link${activePage === "policies" ? " active" : ""}`} href="/policies">Policies</a>
             </li>
             <li className="nav-item">
               <a className={`nav-link${activePage === "events" ? " active" : ""}`} href="/events">Events</a>

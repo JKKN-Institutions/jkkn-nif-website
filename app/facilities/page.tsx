@@ -40,7 +40,7 @@ export default function FacilitiesPage() {
                   NIF&apos;s 10,000+ sq ft campus houses advanced laboratories, clinical trial facilities, regulatory clearance support, and collaborative workspaces — providing healthcare startups with everything they need to go from concept to commercialisation under one roof.
                 </p>
                 <div className="nif-fac-hero-cta nif-reveal nif-reveal-delay-3">
-                  <a href="#" className="nif-btn nif-btn-primary">
+                  <a href="/contact" className="nif-btn nif-btn-primary">
                     <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" width="18" height="18"><rect x="3" y="4" width="18" height="18" rx="2" ry="2" /><line x1="16" y1="2" x2="16" y2="6" /><line x1="8" y1="2" x2="8" y2="6" /><line x1="3" y1="10" x2="21" y2="10" /></svg>
                     Schedule a Campus Tour
                   </a>
@@ -169,7 +169,7 @@ export default function FacilitiesPage() {
         </section>
 
         {/* Facility 02: Clinical Trial */}
-        <section className="nif-fac-detail nif-section-padding" style={{ background: "#f5f7fa" }}>
+        <section className="nif-fac-detail nif-section-padding" style={{ background: "#F9F7F2" }}>
           <div className="nif-container">
             <div className="nif-fac-detail-grid nif-fac-reversed">
               <div className="nif-fac-detail-visual nif-reveal">
@@ -223,7 +223,7 @@ export default function FacilitiesPage() {
         </section>
 
         {/* Facility 04: Ethics Committee */}
-        <section className="nif-fac-detail nif-section-padding" style={{ background: "#f5f7fa" }}>
+        <section className="nif-fac-detail nif-section-padding" style={{ background: "#F9F7F2" }}>
           <div className="nif-container">
             <div className="nif-fac-detail-grid nif-fac-reversed">
               <div className="nif-fac-detail-visual nif-reveal">
@@ -276,7 +276,7 @@ export default function FacilitiesPage() {
         </section>
 
         {/* Facility 06: Co-Working */}
-        <section className="nif-fac-detail nif-section-padding" style={{ background: "#f5f7fa" }}>
+        <section className="nif-fac-detail nif-section-padding" style={{ background: "#F9F7F2" }}>
           <div className="nif-container">
             <div className="nif-fac-detail-grid nif-fac-reversed">
               <div className="nif-fac-detail-visual nif-reveal">
@@ -330,7 +330,7 @@ export default function FacilitiesPage() {
         </section>
 
         {/* WHY NIF FACILITIES */}
-        <section className="nif-fac-why nif-section-padding" style={{ background: "#f5f7fa" }}>
+        <section className="nif-fac-why nif-section-padding" style={{ background: "#F9F7F2" }}>
           <div className="nif-container">
             <div className="nif-text-center nif-reveal" style={{ marginBottom: "3rem" }}>
               <div className="nif-section-badge" style={{ margin: "0 auto 1.25rem" }}>
