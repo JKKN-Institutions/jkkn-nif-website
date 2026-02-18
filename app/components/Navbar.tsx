@@ -28,8 +28,18 @@ export default function Navbar({ activePage }: { activePage: string }) {
             <li className="nav-item">
               <a className={`nav-link${activePage === "home" ? " active" : ""}`} href="/">Home</a>
             </li>
+            <li className="nav-item dropdown">
+              <a className={`nav-link dropdown-toggle${activePage === "about" ? " active" : ""}`} href="/about" role="button" data-bs-toggle="dropdown" aria-expanded="false">About</a>
+              <ul className="dropdown-menu">
+                <li><a className="dropdown-item" href="/about">About NIF</a></li>
+                <li><a className="dropdown-item" href="/about/director">About Director</a></li>
+                <li><a className="dropdown-item" href="/about/ceo">About CEO</a></li>
+                <li><hr className="dropdown-divider" /></li>
+                <li><a className="dropdown-item" href="/about/innovation-voucher-programme">Innovation Voucher Programme</a></li>
+              </ul>
+            </li>
             <li className="nav-item">
-              <a className={`nav-link${activePage === "about" ? " active" : ""}`} href="/about">About</a>
+              <a className={`nav-link${activePage === "events" ? " active" : ""}`} href="/events">Events</a>
             </li>
             <li className="nav-item">
               <a className={`nav-link${activePage === "facilities" ? " active" : ""}`} href="/facilities">Our Facilities</a>
@@ -39,9 +49,6 @@ export default function Navbar({ activePage }: { activePage: string }) {
             </li>
             <li className="nav-item">
               <a className={`nav-link${activePage === "policies" ? " active" : ""}`} href="/policies">Policies</a>
-            </li>
-            <li className="nav-item">
-              <a className={`nav-link${activePage === "events" ? " active" : ""}`} href="/events">Events</a>
             </li>
             <li className="nav-item">
               <a className={`nav-link${activePage === "contact" ? " active" : ""}`} href="/contact">Contact</a>
