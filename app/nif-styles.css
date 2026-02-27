@@ -2238,13 +2238,18 @@ img {
 .nif-hero-stats-row { display: flex; gap: 2.5rem; padding-top: 2.5rem; border-top: 1px solid rgba(0,0,0,0.08); margin-top: -1.5rem; }
 .nif-hero-stat-item h4 { font-size: 1.7rem; font-weight: 800; color: #0b6d41; margin-bottom: 0.15rem; letter-spacing: -0.02em; }
 .nif-hero-stat-item p { font-size: 0.72rem; color: #4B5563; text-transform: uppercase; letter-spacing: 0.1em; margin: 0; }
-.nif-hero-visual { display: flex; justify-content: center; align-items: center; }
+.nif-hero-visual { display: flex; justify-content: center; align-items: center; position: relative; }
 .nif-hero-card {
   position: relative; width: 100%; max-width: 460px; min-height: 420px;
   background: #ffffff; border-radius: 24px;
   border: 1px solid rgba(0,0,0,0.08);
   box-shadow: 0 8px 32px rgba(0,0,0,0.1), 0 0 30px rgba(11,109,65,0.08);
   display: flex; align-items: center; justify-content: center;
+  overflow: hidden;
+}
+.nif-hero-card-img {
+  width: 100%; height: 100%; object-fit: cover;
+  position: absolute; top: 0; left: 0; border-radius: 24px;
 }
 .nif-hero-card-title {
   font-size: clamp(1.8rem, 3vw, 2.4rem); font-weight: 800; letter-spacing: -0.02em;
@@ -2253,7 +2258,7 @@ img {
   text-align: center; padding: 0 2rem;
 }
 .nif-hero-floating-badge {
-  position: absolute; bottom: -16px; left: -16px;
+  position: absolute; bottom: -24px; left: -24px; z-index: 2;
   background: #ffffff; backdrop-filter: blur(20px);
   border: 1px solid rgba(11,109,65,0.15); border-radius: 16px;
   padding: 1rem 1.4rem; box-shadow: 0 4px 15px rgba(0,0,0,0.08);
@@ -2261,10 +2266,11 @@ img {
 .nif-hero-floating-badge .badge-label { font-size: 1.2rem; font-weight: 800; color: #0b6d41; display: block; letter-spacing: -0.02em; }
 .nif-hero-floating-badge .badge-text { font-size: 0.7rem; color: #4B5563; line-height: 1.4; margin: 0; }
 .nif-hero-floating-tag {
-  position: absolute; top: 20px; right: -20px;
-  background: rgba(11,109,65,0.08); backdrop-filter: blur(10px);
+  position: absolute; top: 20px; right: -28px; z-index: 2;
+  background: rgba(255,255,255,0.95); backdrop-filter: blur(10px);
   border: 1px solid rgba(11,109,65,0.15); border-radius: 10px;
   padding: 0.6rem 1rem; font-size: 0.72rem; font-weight: 600; color: #085032;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.08);
   animation: nifFloatTag 4s ease-in-out infinite;
 }
 @keyframes nifFloatTag { 0%,100%{transform:translateY(0)} 50%{transform:translateY(-8px)} }
@@ -2273,14 +2279,17 @@ img {
 .nif-about { background: #F9F7F2; position: relative; overflow: hidden; }
 .nif-about::before { content:''; position: absolute; top:0; left:0; right:0; height:1px; background: linear-gradient(90deg, transparent, rgba(0,0,0,0.06), transparent); }
 .nif-about-grid { display: grid; grid-template-columns: 1fr 1.15fr; gap: 4rem; align-items: start; }
-.nif-about-card-block { position: relative; padding-top: 3rem; }
+.nif-about-card-block { position: relative; padding-top: 3rem; overflow: visible; }
 .nif-about-card {
   position: relative; width: 100%; min-height: 400px;
   background: #ffffff; border-radius: 24px;
   border: 1px solid rgba(0,0,0,0.08);
   box-shadow: 0 8px 32px rgba(0,0,0,0.08), 0 0 30px rgba(11,109,65,0.06);
   display: flex; align-items: center; justify-content: center;
-  padding: 2rem;
+}
+.nif-about-card-img {
+  width: 100%; height: 100%; object-fit: cover;
+  position: absolute; top: 0; left: 0; border-radius: 24px;
 }
 .nif-about-card-title {
   font-size: clamp(1.4rem, 2.5vw, 1.8rem); font-weight: 800; letter-spacing: -0.02em;
@@ -2289,7 +2298,7 @@ img {
   text-align: center;
 }
 .nif-about-accent-badge {
-  position: absolute; bottom: -16px; right: -16px;
+  position: absolute; bottom: -24px; right: -24px; z-index: 2;
   background: #ffffff; border: 1px solid rgba(11,109,65,0.15);
   border-radius: 16px; padding: 1.2rem 1.6rem; text-align: center;
   box-shadow: 0 4px 15px rgba(0,0,0,0.08);
@@ -2786,10 +2795,13 @@ img {
 .nif-fac-overview { background: #F9F7F2; }
 .nif-fac-overview-grid { display: grid; grid-template-columns: 1fr 1.15fr; gap: 3.5rem; align-items: center; }
 .nif-fac-overview-card {
-  background: linear-gradient(135deg, #0b6d41 0%, #085032 100%);
-  border-radius: 16px; padding: 3rem 2rem; text-align: center;
+  position: relative; border-radius: 16px; overflow: hidden;
   box-shadow: 0 10px 30px rgba(11,109,65,0.25);
   min-height: 380px; display: flex; align-items: center; justify-content: center;
+}
+.nif-fac-overview-card-img {
+  width: 100%; height: 100%; object-fit: cover;
+  position: absolute; top: 0; left: 0; border-radius: 16px;
 }
 .nif-fac-overview-card-inner { display: flex; flex-direction: column; align-items: center; gap: 1.25rem; }
 .nif-fac-overview-card-icon { width: 70px; height: 70px; border-radius: 50%; background: rgba(255,255,255,0.2); display: flex; align-items: center; justify-content: center; }
