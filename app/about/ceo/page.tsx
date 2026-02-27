@@ -48,13 +48,19 @@ export default function CeoPage() {
         <section className="nif-about nif-section-padding" id="ceo-profile">
           <div className="nif-container">
             <div className="nif-about-grid">
-              <div className="nif-about-card-block nif-reveal">
-                <div className="nif-about-card">
-                  <h2 className="nif-about-card-title">Mr. S. Vijaysabari</h2>
-                  <div className="nif-about-accent-badge">
-                    <h4>CEO</h4>
-                    <p>Nattraja Incubation Forum</p>
-                  </div>
+              <div className="nif-about-card-block nif-reveal" style={{ paddingTop: "3rem" }}>
+                <div className="nif-about-card" style={{ padding: 0, overflow: "hidden", borderRadius: "24px", border: "none", boxShadow: "none", background: "transparent" }}>
+                  <img
+                    src="/images/vijaysabari-ceo.jpeg"
+                    alt="Mr. S. Vijaysabari - CEO"
+                    style={{
+                      width: "100%",
+                      height: "100%",
+                      objectFit: "cover",
+                      display: "block",
+                      borderRadius: "24px",
+                    }}
+                  />
                 </div>
                 <div className="nif-about-features nif-reveal nif-reveal-delay-4">
                   <div className="nif-about-feature-item">

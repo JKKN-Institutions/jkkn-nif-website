@@ -90,13 +90,11 @@ export default function FacilitiesPage() {
           <div className="nif-container">
             <div className="nif-fac-overview-grid">
               <div className="nif-fac-overview-card nif-reveal">
-                <div className="nif-fac-overview-card-inner">
-                  <div className="nif-fac-overview-card-icon">
-                    <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5"><circle cx="12" cy="12" r="10" /><path d="M12 16v-4M12 8h.01" /></svg>
-                  </div>
-                  <h3 className="nif-fac-overview-card-title">NIF Campus<br />Bioconvergence Hub</h3>
-                  <div className="nif-fac-overview-card-dots"><span></span><span></span><span></span></div>
-                </div>
+                <img
+                  src="/images/nif-campus.png"
+                  alt="NIF Campus - Bioconvergence Hub"
+                  className="nif-fac-overview-card-img"
+                />
               </div>
               <div className="nif-fac-overview-text nif-reveal nif-reveal-delay-1">
                 <div className="nif-section-badge">

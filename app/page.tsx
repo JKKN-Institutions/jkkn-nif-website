@@ -121,18 +121,22 @@ export default function Home() {
 
             <div className="nif-hero-visual nif-reveal nif-reveal-delay-2">
               <div className="nif-hero-card">
-                <h2 className="nif-hero-card-title">NIF Innovation Hub</h2>
-                <div className="nif-hero-floating-badge">
-                  <span className="badge-label">NLB</span>
-                  <span className="badge-text">
-                    Nattraja Launchpad
-                    <br />
-                    for Bioconvergence
-                  </span>
-                </div>
-                <div className="nif-hero-floating-tag">
-                  Healthcare + Technology
-                </div>
+                <img
+                  src="/images/nif-innovation-hub.png"
+                  alt="NIF Innovation Hub - Nattraja Incubation Forum workspace"
+                  className="nif-hero-card-img"
+                />
+              </div>
+              <div className="nif-hero-floating-badge">
+                <span className="badge-label">NLB</span>
+                <span className="badge-text">
+                  Nattraja Launchpad
+                  <br />
+                  for Bioconvergence
+                </span>
+              </div>
+              <div className="nif-hero-floating-tag">
+                Healthcare + Technology
               </div>
             </div>
           </div>
@@ -148,9 +152,11 @@ export default function Home() {
             <div className="nif-about-grid">
               <div className="nif-about-card-block nif-reveal">
                 <div className="nif-about-card">
-                  <h2 className="nif-about-card-title">
-                    About NIF — Bioconvergence
-                  </h2>
+                  <img
+                    src="/images/nif-about-lab.png"
+                    alt="NIF Bioconvergence research lab"
+                    className="nif-about-card-img"
+                  />
                   <div className="nif-about-accent-badge">
                     <h4>JKKN</h4>
                     <p>Group of Institutions</p>
